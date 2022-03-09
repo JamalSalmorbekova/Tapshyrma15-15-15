@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Programmist15 programmist15 = new Programmist15("Урмат", "Программист", "A.K.У");
-        Danser15 danser15 = new Danser15("Аяна", "Бийчи","АДЕП");
+        Danser15 danser15 = new Danser15("Аяна ;", "Бийчи","АДЕП");
         Singer15 singer15 = new Singer15("Айдар","Ырчы","Обон деген группанын  мучосу");
         System.out.println(programmist15.toString());
         programmist15.coding();

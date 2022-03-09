@@ -4,10 +4,15 @@ public class Singer15 extends Person15 {
         public Singer15() {
         }
 
-        public Singer15(String name, String designation, String bandName) {
-            super(name, designation);
-            this.bandName = bandName;
-        }
+    public Singer15(String bandName) {
+        this.bandName = bandName;
+    }
+
+    public Singer15(String name, String designation, String bandName) {
+        super(name, designation);
+        this.bandName = bandName;
+    }
+
 
         public String getBandName() {
             return bandName;
@@ -32,10 +37,10 @@ public class Singer15 extends Person15 {
 
         @Override
         public String toString() {
-            return "3. Singer{" +
-                    "name='" + name + '\'' +
-                    ", designation='" + designation + '\'' +
-                    ", bandName='" + bandName + '\'' +
+            return "3. ЫРЧЫ{" +
+                    "аты - '" + name + '\'' +
+                    ", кесиби '" + designation + '\'' +
+                    ", иштеген группасы - '" + bandName + '\'' +
                     '}';
         }
     }

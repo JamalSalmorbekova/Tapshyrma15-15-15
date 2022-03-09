@@ -22,15 +22,16 @@ public class Danser15 extends Person15 {
         super.Learn();
         super.Walk();
         super.Eat();
-        System.out.println("Biichi bilep jatat");
+        System.out.println("Бийчи  элдик  бийди  бийлеп  журот");
     }
 
     @Override
     public String toString() {
         return "2. Бийчи{" +
-                "groupName='" + groupName + '\'' +
-                ", name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
+                ", аты - '" + name + '\'' +
+                "бийлеген группасынын аты - '" + groupName + '\'' +
+
+                ", кесиби '" + designation + '\'' +
                 '}';
     }
 }
